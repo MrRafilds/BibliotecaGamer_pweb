@@ -8,8 +8,11 @@ Aplicação WEB desenvolvida em PHP com o objetivo de gerenciar uma biblioteca d
 ## 🎓 Informações Acadêmicas
 
 **Faculdade:** Fatec Botucatu
+
 **Curso:** Análise e Desenvolvimento de Sistemas
+
 **Semestre:** 5º semestre
+
 **Disciplina:** Programação WEB
 
 ## 🛠 Tecnologias

@@ -1,0 +1,22 @@
+CREATE DATABASE pweb_jogos;
+
+USE pweb_jogos;
+
+CREATE TABLE usuario(
+    cod INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(50),
+    login VARCHAR(20),
+    senha VARCHAR(32)
+);
+
+CREATE TABLE jogos(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    titulo VARCHAR(100) NOT NULL,
+    plataforma VARCHAR(50) NOT NULL,
+    conquistas_desbloqueadas INTEGER NOT NULL,
+    conquistas_total INTEGER NOT NULL,
+    usuario_id INTEGER NOT NULL,
+    FOREIGN KEY (usuario_id) REFERENCES usuario (cod)
+);
+
+INSERT INTO usuario (login, senha, nome) VALUES ('rafilds', '123', 'ADM Rafilds');

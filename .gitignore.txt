@@ -18,3 +18,13 @@
 # Package manager lock files (Optional but common)
 # Keep composer.lock for applications, but you may ignore it for libraries
 # composer.lock
+
+# Ignorar imagens pessoais ou pesadas na raiz ou pastas específicas
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# Se tiver uma pasta específica de uploads locais que não deve ir para o GitHub
+/uploads/
